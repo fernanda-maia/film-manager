@@ -1,9 +1,9 @@
 .main-content {
     display: flex;
+    padding-bottom: 5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../../../assets/img/cover.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -87,6 +87,14 @@
     outline-color: #ff0000;
     background-color: #ff0000;
     color: var(--secondary-font-color);
+}
+
+.form-movie-opt {
+    background-color: var(--secondary-bg);
+}
+
+.form-movie-opt:hover {
+    background-color: var(--hover-effect-color);
 }
 
 @media only screen and (min-width: 760px){

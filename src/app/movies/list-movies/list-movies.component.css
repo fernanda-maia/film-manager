@@ -4,8 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    padding: 1rem 3rem 3rem;
-    background-image: url('../../../assets/img/cover.jpg');
+    padding: 0 3rem 5rem;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -13,7 +12,7 @@
 .app-title {
     height: calc(15rem + 10vw);
     width: 100%;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     justify-content: center;
     font-size: calc(2rem + 2vw);
     font-family: var(--body-font);
