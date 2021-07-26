@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-bg: #050505;
+    --secondary-bg: #111;
+
+    --title-primary-font: 'Fredoka One', cursive;
+    --title-secondary-font: 'Rock Salt', cursive;
+    --body-font: 'Manrope', sans-serif;
+
+    --primary-font-color: #fff;
+    --secondary-font-color: #fff;
+    
+    --menu-theme-color: #af0083;
+    --hover-effect-color: #e41c9191;
+}
+
+html, body { 
+    height: 100%; 
+}
+
+body { 
+    margin: 0; 
+    font-family: var(--body-font); 
+    color: var(--primary-font-color);
+}

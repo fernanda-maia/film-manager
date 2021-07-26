@@ -1,0 +1,110 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../assets/img/cover.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.app-title {
+    height: calc(1rem + 10vw);
+    margin: 5rem 0;
+    width: 100%;
+    justify-content: center;
+    font-size: calc(2rem + 2vw);
+    font-family: var(--body-font);
+    font-weight: 100;
+    background-color: transparent;
+    text-shadow:
+               0px 0px 10px #dab0cf,
+               0px 0px 10px #520831,
+               0px 0px 10px #3d0238;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color: transparent;
+}
+
+.form-movie-content {
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--primary-bg);
+    padding: 2rem 2.5rem;
+    border-radius: 1rem;
+    border: solid 7px #b300a4;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.274);
+    transition: 0.5;
+    font-family: var(--body-font);
+    font-size: 1.2rem;
+}
+.form-movie-btn {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.form-movie-btn button {
+    width: 50%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+
+.form-btn-action {
+    outline: solid 3px var(--menu-theme-color);
+}
+
+.form-btn-action{
+    background-color: transparent;
+}
+
+.form-btn-action:first-of-type {
+    outline-color: #7efc0060;
+    color: #7efc0060;
+}
+
+.form-btn-action:last-of-type {
+    outline-color: #ff000060;
+    color: #ff000060;
+}
+
+.form-btn-action:first-of-type:hover {
+    outline-color:#11ca0a;
+    background-color: #11ca0a;
+    color: var(--secondary-font-color);
+}
+
+.form-btn-action:last-of-type:hover {
+    outline-color: #ff0000;
+    background-color: #ff0000;
+    color: var(--secondary-font-color);
+}
+
+@media only screen and (min-width: 760px){
+    .form-group {
+        width: 30rem;
+    }
+
+}
+
+@media only screen and (max-width: 760px) {
+    .form-movie-btn {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    
+    .form-movie-btn button {
+        align-self: center;
+        width: 100%;
+    }
+
+}

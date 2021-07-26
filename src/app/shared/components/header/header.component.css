@@ -1,0 +1,47 @@
+.sidenav-container {
+    height: 100%;
+}
+
+.sidenav {
+    width: calc(20rem - 5vw);
+    box-shadow: 3px 0 6px rgba(0,0,0,.24);
+}
+
+::ng-deep .menu-secondary, .sidenav {
+    background-color: var(--secondary-bg);
+}
+
+
+.menu-title {
+    background-color: var(--primary-bg);
+    text-transform: uppercase;
+}
+
+.btn-menu ,.btn-menu span, .color-font {
+    color: var(--secondary-font-color);
+    letter-spacing: 1px;
+}
+
+.btn-menu:hover  {
+    background-color: var(--hover-effect-color);
+}
+
+.header-toolbar {
+    background-color: var(--menu-theme-color);
+    font-size: 1.5rem;
+    justify-content: space-between;
+    box-shadow: 1px 2px 33px -2px rgba(0,0,0,0.73);
+}
+
+.header-toolbar > span {
+    font-family: var(--title-primary-font);
+    font-weight: normal;
+}
+
+.secondary-font {
+    font-family: var(--title-secondary-font);
+}
+
+.app-content {
+  min-height: calc(100vh - 110px);
+}

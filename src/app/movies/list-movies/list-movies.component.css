@@ -1,0 +1,118 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem 3rem 3rem;
+    background-image: url('../../../assets/img/cover.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.app-title {
+    height: calc(15rem + 10vw);
+    width: 100%;
+    margin-bottom: 5rem;
+    justify-content: center;
+    font-size: calc(2rem + 2vw);
+    font-family: var(--body-font);
+    font-weight: 100;
+    background-color: transparent;
+    text-shadow:
+               0px 0px 10px #dab0cf,
+               0px 0px 10px #520831,
+               0px 0px 10px #3d0238;
+}
+
+.home-content {
+    width: 80%;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    display: grid;
+    background-color: #9b06933d;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 25rem));
+    gap: 3rem;
+    justify-content: center;
+}
+  
+.home-card {
+    border-radius: 1rem;
+    background-color: var(--primary-bg);
+    padding: 2rem;
+    transform: translateY(-15vh);
+    border: solid 7px #7efc0060;
+    transition: 0.5;
+    font-family: var(--body-font);
+}
+
+.home-card:hover {
+    border-color: #7cfc00;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.274);
+}
+
+.card-movie-title {
+    font-size: 1.6rem;
+    font-family: var(--title-primary-font);
+    font-weight: normal;
+    padding-bottom: 1rem;
+}
+
+.card-movie-subtitle {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img {
+    width: 80%;
+    object-fit: scale-down;
+}
+
+.card-movie-content {
+    padding: 1.2rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    background-color: var(--secondary-bg);
+    text-align: justify;
+    height: 6rem;
+}
+
+.card-movie-content p {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.card-movie-btn {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: transparent;
+    box-shadow: none;
+    color: #7efc0060;
+    outline: solid 3px #7efc0060;
+}
+
+.card-movie-btn:hover {
+    outline-color: #7cfc00;
+    color: #7cfc00; 
+}
+
+@media only screen and (max-width: 1024px) {
+    .home-card {
+        transform: translateY(0);
+    }
+
+    .home-content {
+        padding: 5rem 1rem;
+        transform: translateY(-15vh);
+    }
+}
