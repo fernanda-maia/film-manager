@@ -1,9 +1,9 @@
 <div class="main-content" style="background-image: url(assets/img/cover.jpg)">
-  <mat-toolbar class="app-title">Save a Video</mat-toolbar>
+  <mat-toolbar class="app-title">Save a Music</mat-toolbar>
   <mat-card class="home-content" >
 
       <mat-card-content class="form-movie-content">
-        <form [formGroup]="register" (ngSubmit)="save()" (ngReset)="cancel()" novalidate autocomplete="off">
+        <form [formGroup]="register" (ngSubmit)="submit()" (ngReset)="cancel()" novalidate autocomplete="off">
 
             <app-input-text fieldName="Title" [formGroup]="register" controlName="title"></app-input-text>
             <app-input-text fieldName="Author" [formGroup]="register" controlName="author"></app-input-text>

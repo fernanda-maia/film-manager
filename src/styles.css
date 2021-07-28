@@ -12,14 +12,27 @@
     
     --menu-theme-color: #af0083;
     --hover-effect-color: #e41c9191;
+
+    --lime-border-color: #7cfc00;
+    --pink-border-color: #ff007f;
+
+    --box-shadow-primary: 0px 0px 10px rgba(255, 255, 255, 0.274);
 }
 
-html, body { 
-    height: 100%; 
+* {
+    box-sizing: border-box;
+}
+
+html { 
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 body { 
+    height: 100vh;
     margin: 0; 
+    padding: 0;
     font-family: var(--body-font); 
     color: var(--primary-font-color);
 }

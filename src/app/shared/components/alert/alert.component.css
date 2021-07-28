@@ -1,0 +1,61 @@
+::ng-deep.mat-dialog-container {
+    border: double 5px #fff;
+    gap: 1rem;
+    background-color: var(--primary-bg);
+    box-shadow: var(--box-shadow-primary);
+}
+
+.alert-title {
+    text-align: center;
+    font-family: var(--title-primary-font);
+    font-size: 2rem;
+}
+
+.alert-content {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1.5rem;
+    width: 30vw;
+    min-width: fit-content;
+    font-family: var(--body-font);
+}
+
+.alert-btn-box {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+::ng-deep .mat-button-focus-overlay {
+    background-color: transparent!important;
+}
+
+.alert-btn {
+    outline: solid 3px var(--menu-theme-color);
+    background-color: transparent;
+    border-radius: 0;
+    width: 50%;
+}
+
+.ok-btn {
+    outline-color: var(--lime-border-color);
+    color: var(--lime-border-color);
+}
+
+.cancel-btn {
+    outline-color: #ff000060;
+    color: #ff000060;
+}
+
+.cancel-btn:hover {
+    outline-color: #ff0000;
+    color: #ff0000;
+}
+
+@media only screen and (max-width: 790px) {
+    .alert-content {
+        width: 70vw;
+    }   
+}

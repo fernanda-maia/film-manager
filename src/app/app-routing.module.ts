@@ -1,34 +1,34 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { MoviesModule } from './movies/movies.module';
-import { ListMoviesComponent } from './movies/list-movies/list-movies.component';
-import { RegisterMoviesComponent } from './movies/register-movies/register-movies.component';
+import { MusicsModule } from './music/musics.module';
+import { ListMusicsComponent } from './music/list-musics/list-musics.component';
+import { RegisterMusicsComponent } from './music/register-musics/register-musics.component';
 
 
 const routes: Routes = [
   {
     path: "",
-    redirectTo: "videos",
+    redirectTo: "musics",
     pathMatch: "full"
   },
   {
-    path: "videos",
+    path: "musics",
     children: [
       {
         path: "",
-        component: ListMoviesComponent
+        component: ListMusicsComponent
       },
       {
         path: "register",
-        component: RegisterMoviesComponent,
+        component: RegisterMusicsComponent,
         pathMatch: "full"
       }
     ]
   },
   {
     path: "**",
-    redirectTo: "videos"
+    redirectTo: "musics"
   }
 ];
 
@@ -36,7 +36,7 @@ const routes: Routes = [
 @NgModule({
   imports: [
     RouterModule.forRoot(routes),
-    MoviesModule
+    MusicsModule
   ],
   exports: [RouterModule]
 })

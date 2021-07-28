@@ -1,14 +1,312 @@
 {
-  "videos": [
+  "musics": [
     {
-      "id": 1,
-      "title": "Trio Mandili",
-      "imgURL": "assets/img",
-      "release": "03/21/2021",
-      "description": "No description",
-      "duration": "2",
-      "link": "EDK9KOfknTw&ab",
-      "gender": "folk"
+      "title": "The Riddle",
+      "author": "Gigi D'Agostino",
+      "imageURL": "https://originalouversao.com.br/assets/img/artistas/Gigi_D_Agostino_1511031281.jpg",
+      "releaseDate": "2021-07-28T18:50:01.119Z",
+      "duration": 3.26,
+      "linkYoutube": "https://www.youtube.com/watch?v=cvvd-9azD1M",
+      "style": "Trance",
+      "moreInfo": "Remix",
+      "id": 1
+    },
+    {
+      "title": "Midnight Spear",
+      "author": "Tara's Folk",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T20:10:11.550Z",
+      "duration": 4.1,
+      "linkYoutube": "https://www.youtube.com/watch?v=9pJbPr8W1xc",
+      "style": "Folk",
+      "moreInfo": "",
+      "id": 2
+    },
+    {
+      "title": "NY Handpan",
+      "author": "Sam Maher",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T20:29:51.485Z",
+      "duration": 4.7,
+      "linkYoutube": "https://www.youtube.com/watch?v=6oremFnbgO0&t=65s",
+      "style": "Indie",
+      "moreInfo": "",
+      "id": 3
+    },
+    {
+      "title": "Throat Singing",
+      "author": "Batzorig",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T20:32:44.697Z",
+      "duration": 3.4,
+      "linkYoutube": "https://www.youtube.com/watch?v=gAua3u3DXfU",
+      "style": "Folk",
+      "moreInfo": "",
+      "id": 4
+    },
+    {
+      "title": "Kakhuri",
+      "author": "Trio Mandili",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T20:53:25.220Z",
+      "duration": 2.01,
+      "linkYoutube": "https://www.youtube.com/watch?v=EDK9KOfknTw&ab_channel=TrioMandili",
+      "style": "Folk",
+      "moreInfo": "",
+      "id": 5
+    },
+    {
+      "title": "Fractal Eternal Wheel",
+      "author": "Ozric Tentacles",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T21:12:34.194Z",
+      "duration": 8.24,
+      "linkYoutube": "https://www.youtube.com/watch?v=UXAaDqPl7oY&ab_channel=piccallopaul",
+      "style": "Progressive",
+      "moreInfo": "",
+      "id": 6
+    },
+    {
+      "title": "How To Stay Alive",
+      "author": "Gong",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T21:16:44.217Z",
+      "duration": 3.23,
+      "linkYoutube": "https://www.youtube.com/watch?v=Pw8ZESzpL3M&ab_channel=steveh77",
+      "style": "Progressive",
+      "moreInfo": "",
+      "id": 7
+    },
+    {
+      "title": "La Bambolina",
+      "author": "Gabry Ponte",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T21:19:01.771Z",
+      "duration": 5.39,
+      "linkYoutube": "https://www.youtube.com/watch?v=gd3Cw7eOFR4&ab_channel=MiGho",
+      "style": "Trance",
+      "moreInfo": "",
+      "id": 8
+    },
+    {
+      "title": "My Way",
+      "author": "Calvin Harris",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T21:20:43.841Z",
+      "duration": 4.04,
+      "linkYoutube": "https://www.youtube.com/watch?v=b4Bj7Zb-YD4&ab_channel=CalvinHarrisVEVO",
+      "style": "Other",
+      "moreInfo": "",
+      "id": 9
+    },
+    {
+      "title": "In My Mind",
+      "author": "Gigi D’Agostino",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T21:23:50.991Z",
+      "duration": 3.04,
+      "linkYoutube": "https://www.youtube.com/watch?v=W9P_qUnMaFg&ab_channel=ChillNation",
+      "style": "Trance",
+      "moreInfo": "",
+      "id": 10
+    },
+    {
+      "title": "l'Air Mignonne",
+      "author": "Imar",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T21:26:19.982Z",
+      "duration": 4.48,
+      "linkYoutube": "https://www.youtube.com/watch?v=DFalXoDhurA&ab_channel=%C3%8Dmar",
+      "style": "Other",
+      "moreInfo": "",
+      "id": 11
+    },
+    {
+      "title": "Persian music",
+      "author": "Mirtohid Radfar",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T21:29:46.519Z",
+      "duration": 5.56,
+      "linkYoutube": "https://www.youtube.com/watch?v=OVmCGiNsX00&ab_channel=faridsheek",
+      "style": "Other",
+      "moreInfo": "",
+      "id": 12
+    },
+    {
+      "title": "Dune",
+      "author": "Faran Ensemble",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T21:34:55.809Z",
+      "duration": 6.48,
+      "linkYoutube": "https://www.youtube.com/watch?v=RaLVi4zFYvk&ab_channel=RoySmila",
+      "style": "Other",
+      "moreInfo": "",
+      "id": 13
+    },
+    {
+      "title": "La fuite du chat noir",
+      "author": "Remi Geffroy ",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T21:38:07.354Z",
+      "duration": 3.14,
+      "linkYoutube": "https://www.youtube.com/watch?v=cayinI74kvA&ab_channel=R%C3%A9miGeffroy",
+      "style": "Folk",
+      "moreInfo": "",
+      "id": 14
+    },
+    {
+      "title": "Anima Libera",
+      "author": "Provenzano",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T21:43:44.724Z",
+      "duration": 4.27,
+      "linkYoutube": "https://www.youtube.com/watch?v=3yTzPC_X3J0&ab_channel=DJATOMICKPATRICK",
+      "style": "Trance",
+      "moreInfo": "",
+      "id": 15
+    },
+    {
+      "title": "Ey Yar",
+      "author": "Rastak",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T21:47:33.505Z",
+      "duration": 5.24,
+      "linkYoutube": "https://www.youtube.com/watch?v=7OsKYiKpphs&ab_channel=RastakMusic",
+      "style": "Folk",
+      "moreInfo": "",
+      "id": 16
+    },
+    {
+      "title": "Twameva",
+      "author": "Sivananda",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T21:50:06.409Z",
+      "duration": 5.3,
+      "linkYoutube": "https://www.youtube.com/watch?v=jprRLqyTQQM&ab_channel=Adhy%C4%81tman",
+      "style": "Other",
+      "moreInfo": "",
+      "id": 17
+    },
+    {
+      "title": "Oye Como Va",
+      "author": "Santana",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T21:51:41.832Z",
+      "duration": 4.52,
+      "linkYoutube": "https://www.youtube.com/watch?v=9QhchQD_w0M&ab_channel=SantanaVEVO",
+      "style": "Other",
+      "moreInfo": "",
+      "id": 18
+    },
+    {
+      "title": "Queremos Navegar",
+      "author": "Coral Nossa Senhora",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T21:56:24.926Z",
+      "duration": 53.56,
+      "linkYoutube": "https://www.youtube.com/watch?v=vcLRi3SDMJU&ab_channel=WuMing",
+      "style": "Other",
+      "moreInfo": "",
+      "id": 19
+    },
+    {
+      "title": "Samai Bayati Qadim",
+      "author": "Azrin Abdullah",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T21:58:17.068Z",
+      "duration": 3.15,
+      "linkYoutube": "https://www.youtube.com/watch?v=cMVhlhJ9gX8&list=PLS_Sruh9CffSEPaVuDkK6mUkWXMONaQOl",
+      "style": "Other",
+      "moreInfo": "",
+      "id": 20
+    },
+    {
+      "title": "The Emperor",
+      "author": " Zheng Drum and Ming",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T22:02:38.393Z",
+      "duration": 5.07,
+      "linkYoutube": "https://www.youtube.com/watch?v=IxM1tjTvFAc&ab_channel=saberbutterfly",
+      "style": "Other",
+      "moreInfo": "",
+      "id": 21
+    },
+    {
+      "title": "Throat sing",
+      "author": "BEK",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T22:06:20.373Z",
+      "duration": 3.09,
+      "linkYoutube": "https://www.youtube.com/watch?v=41_d4D7T6uI&ab_channel=%D0%92%D0%95%D0%9A",
+      "style": "Folk",
+      "moreInfo": "",
+      "id": 22
+    },
+    {
+      "title": "Punlo",
+      "author": " morchangstudios",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T22:09:04.680Z",
+      "duration": 5.07,
+      "linkYoutube": "https://www.youtube.com/watch?v=RrvihfjOiU0&list=RDMM&ab_channel=morchangstudios",
+      "style": "Folk",
+      "moreInfo": "",
+      "id": 23
+    },
+    {
+      "title": "L'ambiance du bled",
+      "author": "Mohamed Lamine",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T22:11:24.753Z",
+      "duration": 3.17,
+      "linkYoutube": "https://www.youtube.com/watch?v=d7kD1BOptIM&list=RDMM&index=6&ab_channel=MohamedLamine-Topic",
+      "style": "Trance",
+      "moreInfo": "",
+      "id": 24
+    },
+    {
+      "title": "Deep Blue",
+      "author": "Imar",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T22:13:17.371Z",
+      "duration": 5.07,
+      "linkYoutube": "https://www.youtube.com/watch?v=907JdLh_WPM&ab_channel=%C3%8Dmar",
+      "style": "Other",
+      "moreInfo": "",
+      "id": 25
+    },
+    {
+      "title": "Roundabout",
+      "author": "Yes",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T22:36:43.059Z",
+      "duration": 8.36,
+      "linkYoutube": "https://www.youtube.com/watch?v=QOrrNM4md8c&ab_channel=Wandydeoli",
+      "style": "Progressive",
+      "moreInfo": "",
+      "id": 26
+    },
+    {
+      "title": "Bhogindra",
+      "author": "Raghuram",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T22:50:38.967Z",
+      "duration": 9.24,
+      "linkYoutube": "https://www.youtube.com/watch?v=QeAYXZMxYbU&ab_channel=RaghuramManikandan",
+      "style": "Other",
+      "moreInfo": "",
+      "id": 27
+    },
+    {
+      "title": "The Riddle",
+      "author": "Nik Kershaw",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-28T22:53:43.765Z",
+      "duration": 3.54,
+      "linkYoutube": "https://www.youtube.com/watch?v=qLlpoiNvE2k&ab_channel=NikKershaw-Topic",
+      "style": "Other",
+      "moreInfo": "",
+      "id": 28
     }
   ]
 }

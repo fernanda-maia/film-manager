@@ -5,8 +5,8 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MaterialModule } from "../shared/material/material.module";
 
 import { FieldsModule } from "../shared/components/fields/fields.module";
-import { ListMoviesComponent } from "./list-movies/list-movies.component";
-import { RegisterMoviesComponent } from "./register-movies/register-movies.component";
+import { ListMusicsComponent } from "./list-musics/list-musics.component";
+import { RegisterMusicsComponent } from "./register-musics/register-musics.component";
 
 
 @NgModule({
@@ -18,10 +18,10 @@ import { RegisterMoviesComponent } from "./register-movies/register-movies.compo
         FieldsModule
     ],
     declarations: [
-        RegisterMoviesComponent,
-        ListMoviesComponent
+        RegisterMusicsComponent,
+        ListMusicsComponent
     ]
 })
-export class MoviesModule {
+export class MusicsModule {
 
 }

@@ -1,0 +1,37 @@
+.main-content {
+    width: auto;
+    display: flex;
+    padding-bottom: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    
+}
+
+@supports ( -webkit-touch-callout : none) {
+    .main-content {
+        /*Background vector created by freepik - www.freepik.com*/
+        background-size: contain;
+        background-attachment: scroll;
+        background-image: url('/assets/img/ios-bg.jpg') !important;
+    }
+}
+
+.app-title {
+    height: calc(10rem + 10vw);
+    margin: 5rem 0;
+    width: 100%;
+    transform: translateY(-5vh);
+    justify-content: center;
+    font-size: calc(2rem + 2vw);
+    font-family: var(--body-font);
+    font-weight: 100;
+    background-color: transparent;
+    text-shadow:
+               0px 0px 10px #dab0cf,
+               0px 0px 10px #520831,
+               0px 0px 10px #3d0238;
+}
