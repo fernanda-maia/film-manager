@@ -1,0 +1,11 @@
+<mat-form-field [formGroup]="formGroup" class="form-group" appearance="outline">
+    <mat-label class="form-movie-label">{{fieldName}}</mat-label>
+
+    <mat-select [formControlName]="controlName">
+      <mat-option class="form-movie-opt" *ngFor="let opt of options" [value]="opt">{{opt}}</mat-option>
+    </mat-select>
+    
+    <mat-error *ngIf="validator.hasErrorValidate(formControl, 'required')">
+    Required Field
+    </mat-error>
+</mat-form-field>

@@ -1,0 +1,17 @@
+.form-group {
+    width: 100%;
+    color: #eeeeee;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: var(--menu-theme-color) !important;
+    caret-color: var(--menu-theme-color);
+}
+
+::ng-deep .mat-form-field-appearance-outline.mat-form-field-invalid .mat-form-field-outline-thick{
+    color: #ff0000!important;
+}
+
+.form-movie-label{
+    color: #b8b8b8;
+}
