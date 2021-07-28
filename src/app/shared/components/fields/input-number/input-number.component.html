@@ -1,0 +1,19 @@
+<mat-form-field [formGroup]="formGroup" class="form-group" appearance="outline">
+    <mat-label class="form-movie-label">{{fieldName}}</mat-label>
+    <input class="number-input" matInput
+                    type="number"
+                    [min]="min"
+                    [max]="max"
+                    [step]="step"
+                    [name]="controlName" 
+                    [formControlName]="controlName">
+        <mat-error *ngIf="validator.hasErrorValidate(formControl, 'required')">
+        Required Field
+        </mat-error>
+        <mat-error *ngIf="validator.hasErrorValidate(formControl, 'min')">
+        Time is not valid
+        </mat-error> 
+        <mat-error *ngIf="validator.hasErrorValidate(formControl, 'max')">
+        Maximum time allowed is {{max}} minutes
+        </mat-error> 
+</mat-form-field>

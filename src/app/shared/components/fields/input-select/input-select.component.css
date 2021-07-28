@@ -1,0 +1,7 @@
+.form-movie-opt {
+    background-color: var(--secondary-bg);
+}
+
+.form-movie-opt:hover {
+    background-color: var(--hover-effect-color);
+}

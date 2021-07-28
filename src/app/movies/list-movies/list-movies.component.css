@@ -1,12 +1,18 @@
 .main-content {
     display: flex;
+    padding-bottom: 5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
-    padding: 0 3rem 5rem;
     background-size: cover;
     background-attachment: fixed;
+}
+
+@supports ( -webkit-touch-callout : none) {
+    .main-content {
+        background: rgb(24,24,29);
+        background: linear-gradient(180deg, rgb(29, 6, 31) 8%,rgb(56, 6, 52)  62%, rgb(65, 25, 83) 100%) !important;
+    }
 }
 
 .app-title {
@@ -25,7 +31,7 @@
 }
 
 .home-content {
-    width: 80%;
+    width: 70%;
     border-radius: 1rem;
     padding: 0 1rem;
     display: grid;
@@ -38,9 +44,9 @@
 .home-card {
     border-radius: 1rem;
     background-color: var(--primary-bg);
-    padding: 2rem;
-    transform: translateY(-15vh);
-    border: solid 7px #7efc0060;
+    padding: 1.7rem;
+    transform: translateY(-12vh);
+    border: double 12px #7efc0060;
     transition: 0.5;
     font-family: var(--body-font);
 }
@@ -58,37 +64,26 @@
 }
 
 .card-movie-subtitle {
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin: 1rem 0;
+}
+
+.card-movie-subtitle::before {
+    content: '@';
 }
 
 .wrapper {
     width: 100%;
-    margin: 1rem 0;
+    margin: 1.4rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .card-img {
-    width: 80%;
-    object-fit: scale-down;
-}
-
-.card-movie-content {
-    padding: 1.2rem 1rem;
-    font-size: 1rem;
-    border-radius: 0.4rem;
-    background-color: var(--secondary-bg);
-    text-align: justify;
-    height: 6rem;
-}
-
-.card-movie-content p {
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
+    width: 15rem;
+    height: 15rem;
+    object-fit: contain;
 }
 
 .card-movie-btn {
@@ -97,7 +92,7 @@
     background-color: transparent;
     box-shadow: none;
     color: #7efc0060;
-    outline: solid 3px #7efc0060;
+    outline: solid 4px #7efc0060;
 }
 
 .card-movie-btn:hover {

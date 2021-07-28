@@ -1,0 +1,18 @@
+<mat-form-field [formGroup]="formGroup" class="form-group" appearance="outline">
+    
+    <mat-label class="form-movie-label">{{fieldName}}</mat-label>
+    <input matInput 
+           [name]="controlName" 
+           [formControlName]="controlName">
+
+    <mat-error *ngIf="validator.hasErrorValidate(formControl,'required')">
+    Required Field
+    </mat-error>
+    <mat-error *ngIf="validator.hasErrorValidate(formControl,'minlength')">
+    {{fieldName}} is too short
+    </mat-error>
+    <mat-error *ngIf="validator.hasErrorValidate(formControl,'maxlength')">
+    {{fieldName}} is too long
+    </mat-error>
+
+</mat-form-field>
