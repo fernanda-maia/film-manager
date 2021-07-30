@@ -76,7 +76,7 @@ export class RegisterMusicsComponent implements OnInit {
             const dialogRef = this.dialog.open(AlertComponent, config);
             dialogRef.afterClosed().subscribe((opt: boolean) => {
                 if(!opt) {
-                    this.router.navigateByUrl('musics');
+                    this.backToList();
                 } else {
                     this.cancel();
                 }
@@ -87,11 +87,22 @@ export class RegisterMusicsComponent implements OnInit {
                 data: {
                     title: "Something went wrong",
                     description: "Service Unavailable",
-                    okBtn: "Okay"
+                    okBtn: "Try again",
+                    cancelBtn: "Back to List",
+                    hasCloseBtn: true
                 } as Alert
             };
-            this.dialog.open(AlertComponent, config);
+            const dialogRef = this.dialog.open(AlertComponent, config);
+            dialogRef.afterClosed().subscribe((opt: boolean) => {
+                if(!opt) {
+                    this.backToList();
+                } 
+            })
         }
         );
+    }
+
+    private backToList(): void {
+        this.router.navigateByUrl('musics');
     }
 }

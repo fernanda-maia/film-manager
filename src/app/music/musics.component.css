@@ -5,19 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    background-position: top;
-    background-attachment: fixed;
+ 
     
-}
-
-@supports ( -webkit-touch-callout : none) {
-    .main-content {
-        /*Background vector created by freepik - www.freepik.com*/
-        background-size: contain;
-        background-attachment: scroll;
-        background-image: url('/assets/img/ios-bg.jpg') !important;
-    }
 }
 
 .app-title {

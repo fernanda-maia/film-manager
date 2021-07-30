@@ -44,4 +44,14 @@
 
 .app-content {
   min-height: calc(100vh - 110px);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@supports ( -webkit-touch-callout : none) {
+    .app-content {
+        background-attachment: scroll;
+    }
 }

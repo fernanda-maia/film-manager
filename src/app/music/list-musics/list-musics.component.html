@@ -1,80 +1,55 @@
-<div class="main-content" style="background-image: url(assets/img/cover.jpg)">
+<div class="main-content" >
+
+  <mat-card  class="wrapper-search-music">
+    <form class="form-search-music" [formGroup]="musicFilter"  novalidate autocomplete="off">
+      <div class="search-music">
+        <app-input-text fieldName="Search" 
+                        [formGroup]="musicFilter" 
+                        controlName="value">
+        </app-input-text>
+      </div>
+      <div class="select-style">
+        <app-input-select fieldName="" 
+                          controlName="style" 
+                          [formGroup]="musicFilter" 
+                          [options]="styles">
+        </app-input-select>
+      </div>
+
+    </form>
+  </mat-card>
 
   <mat-toolbar class="app-title">My List</mat-toolbar>
-  <div class="home-content">
-  
-    <mat-card class="home-card">
-      <mat-card-header>
-        <mat-card-title class="card-movie-title">Title</mat-card-title>
-        <mat-card-subtitle class="card-movie-subtitle">Author</mat-card-subtitle>
-      </mat-card-header>
-      <div class="wrapper">
-        <img mat-card-image class="card-img" src="assets/img/no-image.svg" alt="Angular Material 7">
-      </div>
-  
-      <mat-card-actions>
-        <button color="accent" class="card-movie-btn" (click)="open()" mat-raised-button>MORE INFO</button>
-      </mat-card-actions>
-    </mat-card>
-  
-    <mat-card class="home-card">
-      <mat-card-header>
-        <mat-card-title class="card-movie-title">Title</mat-card-title>
-        <mat-card-subtitle class="card-movie-subtitle">Author</mat-card-subtitle>
-      </mat-card-header>
-      
-      <div class="wrapper">
-        <img mat-card-image class="card-img" src="assets/img/no-image.svg" alt="Angular Material 7">
-      </div>
-      
-      <mat-card-actions>
-        <button color="accent" class="card-movie-btn" (click)="open()" mat-raised-button>MORE INFO</button>
-      </mat-card-actions>
-    </mat-card>
-  
-    <mat-card class="home-card">
-      <mat-card-header>
-        <mat-card-title class="card-movie-title">Title</mat-card-title>
-        <mat-card-subtitle class="card-movie-subtitle">Author</mat-card-subtitle>
-      </mat-card-header>
 
-      <div class="wrapper">
-        <img mat-card-image class="card-img" src="assets/img/no-image.svg" alt="Angular Material 7">
-      </div>
   
-      <mat-card-actions>
-        <button color="accent" class="card-movie-btn" (click)="open()" mat-raised-button>MORE INFO</button>
-      </mat-card-actions>
-    </mat-card>
-  
-    <mat-card class="home-card">
-      <mat-card-header>
-        <mat-card-title class="card-movie-title">Title</mat-card-title>
-        <mat-card-subtitle class="card-movie-subtitle">Author</mat-card-subtitle>
-      </mat-card-header>
+  <div class="home-content"
+  *ngIf="musics.length; else noMusic"
+  infiniteScroll
+  (scrolled)="onScroll()"
+  [infiniteScrollContainer]="'.mat-drawer-content'" 
+  [fromRoot]="true"
+  >
 
-      <div class="wrapper">
-        <img mat-card-image class="card-img" src="assets/img/no-image.svg" alt="Angular Material 7">
-      </div>
-      <mat-card-actions>
-        <button color="accent" class="card-movie-btn" (click)="open()" mat-raised-button>MORE INFO</button>
-      </mat-card-actions>
-    </mat-card>
-  
-  
-    <mat-card class="home-card">
+    <mat-card class="home-card" *ngFor="let music of musics">
       <mat-card-header>
-        <mat-card-title class="card-movie-title">Title</mat-card-title>
-        <mat-card-subtitle class="card-movie-subtitle">Author</mat-card-subtitle>
+        <mat-card-title class="card-movie-title">{{music.title}}</mat-card-title>
+        <mat-card-subtitle class="card-movie-subtitle">{{music.author}}</mat-card-subtitle>
       </mat-card-header>
-
       <div class="wrapper">
-        <img mat-card-image class="card-img" src="assets/img/no-image.svg" alt="Angular Material 7">
+        <img mat-card-image class="card-img" [src]="music.imageURL || noPicture" alt="Angular Material 7">
       </div>
+  
       <mat-card-actions>
-        <button color="accent" class="card-movie-btn" (click)="open()" mat-raised-button>MORE INFO</button>
+        <button color="accent" class="card-movie-btn" mat-raised-button>MORE INFO</button>
       </mat-card-actions>
     </mat-card>
   
   </div>
 </div>
+
+<ng-template #noMusic>
+  <div class="no-content" >
+    <img class="empty-icon" src="assets/img/no-image.svg" alt="" srcset="">
+    <p>Your List is Empty</p>
+  </div>
+</ng-template>

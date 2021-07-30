@@ -1,3 +1,32 @@
+.wrapper-search-music {
+    background-color: rgba(0, 0, 0, 0);
+    align-self: flex-end;
+    margin: 0;
+    width: 25vw;
+    padding: 0.5rem 1rem;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.form-search-music {
+    transform: translateY(10px);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.search-music {
+    width: 88%;
+}
+
+.select-style {
+    width: 12%;
+}
+
 .home-content {
     width: 80%;
     border-radius: 1rem;
@@ -8,7 +37,7 @@
     gap: 3rem;
     justify-content: center;
 }
-  
+
 .home-card {
     border-radius: 1rem;
     background-color: var(--primary-bg);
@@ -17,11 +46,19 @@
     border: double 12px #7efc0060;
     transition: 0.5;
     font-family: var(--body-font);
+    overflow: hidden;
 }
 
 .home-card:hover {
     border-color: var(--lime-border-color);
     box-shadow: var(--box-shadow-primary);
+}
+
+.card-movie-title, .card-movie-subtitle {
+    max-width: calc(12rem + 5vw);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .card-movie-title {
@@ -68,6 +105,40 @@
     color: var(--lime-border-color); 
 }
 
+.no-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #af00834d;
+    width: 60%;
+    border-radius: 1rem;
+
+}
+
+.no-content p {
+    margin: 0;
+    transform: translateY(-5rem);
+    word-spacing: 0.9rem;
+    font-size: 5rem;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: #ffffffcc;
+    text-shadow: -5px 2px 2px #fa0075a2,
+    5px 0 0 #ff74a2bd;;
+    text-transform: uppercase;
+    
+}
+
+.empty-icon {
+    transform: translateY(-10rem);
+    width: 30rem;
+    -webkit-filter: drop-shadow(-1px 0 3px #0077ff);
+    filter: drop-shadow(-1px 0 3px #0077ff);
+}
+
+
 @media only screen and (max-width: 720px) {
     .home-card {
         transform: translateY(0);
@@ -76,6 +147,29 @@
     .home-content {
         width: 60%;
         padding: 5rem 1rem;
-        transform: translateY(-15vh);
     }
+
+    .no-content p {
+        font-size: 4rem;
+    }
+    
+    .empty-icon {
+        transform: translateY(-10rem);
+        width: 20rem;
+    }
+    
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .wrapper-search-music {
+        align-self: center;
+        width: 100%;
+        position: relative;
+    }
+
+    .no-content {
+        width: 80%;
+    }
+    
 }

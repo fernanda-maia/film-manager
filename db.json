@@ -3,7 +3,7 @@
     {
       "title": "The Riddle",
       "author": "Gigi D'Agostino",
-      "imageURL": "https://originalouversao.com.br/assets/img/artistas/Gigi_D_Agostino_1511031281.jpg",
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVXgfcqx5eNaVAjnD64snBr-6ea8s8TlXoNA&usqp=CAU",
       "releaseDate": "2021-07-28T18:50:01.119Z",
       "duration": 3.26,
       "linkYoutube": "https://www.youtube.com/watch?v=cvvd-9azD1M",
@@ -307,6 +307,17 @@
       "style": "Other",
       "moreInfo": "",
       "id": 28
+    },
+    {
+      "title": "Rising Sun",
+      "author": "The Animals ",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-29T16:17:45.460Z",
+      "duration": 0,
+      "linkYoutube": "https://youtube.com/",
+      "style": "Indie",
+      "moreInfo": "",
+      "id": 29
     }
   ]
 }

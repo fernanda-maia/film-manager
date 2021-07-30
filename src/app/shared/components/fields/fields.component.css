@@ -3,6 +3,7 @@
     color: #eeeeee;
 }
 
+
 ::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
     color: var(--menu-theme-color) !important;
     caret-color: var(--menu-theme-color);
