@@ -8,6 +8,7 @@ import { Music } from "src/app/shared/models/music";
 import { MusicService } from "src/app/core/music.service";
 import { ConfigParams } from "src/app/shared/models/config-params";
 import { SearchFields } from "src/app/shared/models/search-fields";
+import { NgxSpinnerService } from "ngx-spinner";
 
 
 @Component({
@@ -40,47 +41,58 @@ export class ListMusicsComponent implements OnInit {
 
     constructor(private musicService: MusicService,
                 private formBuilder: FormBuilder,
+                private spinner: NgxSpinnerService,
                 private router: Router
-    ) {}
+    ) {
 
+    }
+    
     ngOnInit() {
         this.musicFilter = this.formBuilder.group({
             value: [''],
             style: ['']
         });
+        
 
         this.musicFilter.get('value')?.valueChanges
-            .pipe(debounceTime(500))
-            .subscribe((change: string) => {
-                this.configParams.search = change;
-                this.resetList();
+        .pipe(debounceTime(500))
+        .subscribe((change: string) => {
+            this.configParams.search = change;
+            this.resetList();
         })
-
+        
         this.musicFilter.get('style')?.valueChanges.subscribe((change: string) => {
             this.configParams.fields = {
                 type: "style", 
                 value: change
-
+                
             } as SearchFields;
-
+            
             this.resetList();
         })
-
+        
         this.listMusics();
     }
-
+    
     onScroll(): void {
+        this.spinner.show();
         this.listMusics();
     }
-
+    
     openMoreInfo(id: number): void {
         this.router.navigateByUrl(`/musics/${id}`);
     }
-
+    
     private listMusics(): void {
         this.configParams.page++;
+        
         this.musicService.listByPage(this.configParams)
-        . subscribe((m: Music[]) => this.musics.push(...m));
+        .subscribe((m: Music[]) => {
+            this.musics.push(...m);
+        });
+        
+        this.spinner.hide();
+    
     }
 
     private resetList(): void {

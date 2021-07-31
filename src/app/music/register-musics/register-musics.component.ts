@@ -45,14 +45,19 @@ export class RegisterMusicsComponent implements OnInit {
 
     ngOnInit() {
         
-        this.id = this.activetedRoute.snapshot.params["id"];
         this.createNewForm();
-
+        this.id = this.activetedRoute.snapshot.params["id"];
+        
         if(this.id) {
+            
             this.musicService
-                .getById(this.id)
-                .subscribe((music: Music) => this.createNewForm(music));
-        }
+            .getById(this.id)
+            .subscribe((music: Music) => {
+                this.createNewForm(music);
+            });
+
+
+        } 
     }
 
     submit(): void {
@@ -69,7 +74,11 @@ export class RegisterMusicsComponent implements OnInit {
     }
 
     cancel(): void {
-        this.register.reset();
+        if(this.id) {
+            this.router.navigateByUrl(`/musics/${this.id}`)
+        } else {
+            this.register.reset();
+        }
     }
 
     private changeURL(music: Music): Music {

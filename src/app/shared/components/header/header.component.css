@@ -43,15 +43,15 @@
 }
 
 .app-content {
-  overflow-x: hidden;  
-  min-height: calc(100vh - 110px);
-  background: fixed top no-repeat;
-  background-size: cover;
+    overflow-x: hidden;  
+    min-height: calc(100vh - 110px);
+    background: fixed center top no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
 }
 
 @supports ( -webkit-touch-callout : none) {
     .app-content {
-        /* background-attachment: scroll; */
-        background-size: auto 100vh;
+       /* background-size:contain; */
     }
 }

@@ -382,22 +382,11 @@
       "duration": 7.54,
       "linkYoutube": "https://www.youtube.com/embed/4dsFQFCvVGU",
       "style": "Other",
-      "moreInfo": "Um paragrafo aqui \nUm outro paragrafo aqui tambem lalala felis turpis curae pellentesque integer, cubilia dui eget taciti tortor eu fusce phasellus, leo pellentesque adipiscing netus aliquam semper quis. fermentum nec leo porta id proin \nOutro Paragrafo b",
+      "moreInfo": "Kajra Re. aaisi najar se dekha usne jalim ne chowk par. humne kaleja rakh diya chalu ki nok par. wah wah, kamal ho gaya, woh raita fail gaya.",
       "id": 35
     },
     {
-      "title": "Beehive",
-      "author": "The Lowground",
-      "imageURL": "assets/img/no-image.svg",
-      "releaseDate": "2021-07-30T23:31:48.087Z",
-      "duration": 4.23,
-      "linkYoutube": "https://www.youtube.com/embed/IJ1lvB4H1Cg",
-      "style": "Folk",
-      "moreInfo": "Isso é uma outra atualização",
-      "id": 36
-    },
-    {
-      "title": "Mr Tambourine Man asaksjk",
+      "title": "Mr Tambourine Man",
       "author": "The Helio Sequence",
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-30T23:44:07.074Z",
@@ -406,6 +395,28 @@
       "style": "Indie",
       "moreInfo": "",
       "id": 37
+    },
+    {
+      "title": "Lunar Sea",
+      "author": "Camel",
+      "imageURL": "https://i.ebayimg.com/images/g/3aAAAMXQUY1Q9iQu/s-l225.jpg",
+      "releaseDate": "2021-07-31T20:11:01.740Z",
+      "duration": 8.58,
+      "linkYoutube": "https://www.youtube.com/embed/TakazuzJVPc",
+      "style": "Progressive",
+      "moreInfo": "Lunar Sea is a compilation album of the British progressive rock band Camel released 24 July 2001",
+      "id": 38
+    },
+    {
+      "title": "Lady Fantasy",
+      "author": "Camel",
+      "imageURL": "https://a-static.mlcdn.com.br/1500x1500/vinil-camel-mirage-importado/umusicstore/1656/631bf75d626188badde3cf981f144832.jpg",
+      "releaseDate": "2021-07-23T03:00:00.000Z",
+      "duration": 13.33,
+      "linkYoutube": "https://www.youtube.com/embed/SfJJdICYjNk",
+      "style": "Progressive",
+      "moreInfo": null,
+      "id": 39
     }
   ]
 }

@@ -9,10 +9,12 @@ import { FieldsModule } from "../shared/components/fields/fields.module";
 import { InfoMusicsComponent } from './info-musics/info-musics.component';
 import { ListMusicsComponent } from "./list-musics/list-musics.component";
 import { RegisterMusicsComponent } from "./register-musics/register-musics.component";
+import { NgxSpinnerModule } from "ngx-spinner";
 
 
 @NgModule({
     imports: [
+        NgxSpinnerModule,
         FormsModule,
         CommonModule,
         MaterialModule,

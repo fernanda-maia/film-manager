@@ -103,6 +103,9 @@
 
 /*Smartphones*/
 @media only screen and (max-width: 760px) {
+    .no-content {
+        transform: translateY(-5rem);
+    }
     .no-content p {
         font-size: 3rem;
         transform: translateY(-2rem);
