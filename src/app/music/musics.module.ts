@@ -6,6 +6,7 @@ import { InfiniteScrollModule } from "ngx-infinite-scroll";
 import { MaterialModule } from "../shared/material/material.module";
 
 import { FieldsModule } from "../shared/components/fields/fields.module";
+import { InfoMusicsComponent } from './info-musics/info-musics.component';
 import { ListMusicsComponent } from "./list-musics/list-musics.component";
 import { RegisterMusicsComponent } from "./register-musics/register-musics.component";
 
@@ -21,7 +22,8 @@ import { RegisterMusicsComponent } from "./register-musics/register-musics.compo
     ],
     declarations: [
         RegisterMusicsComponent,
-        ListMusicsComponent
+        ListMusicsComponent,
+        InfoMusicsComponent
     ]
 })
 export class MusicsModule {

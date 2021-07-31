@@ -6,7 +6,7 @@
       "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVXgfcqx5eNaVAjnD64snBr-6ea8s8TlXoNA&usqp=CAU",
       "releaseDate": "2021-07-28T18:50:01.119Z",
       "duration": 3.26,
-      "linkYoutube": "https://www.youtube.com/watch?v=cvvd-9azD1M",
+      "linkYoutube": "https://www.youtube.com/embed/cvvd-9azD1M",
       "style": "Trance",
       "moreInfo": "Remix",
       "id": 1
@@ -17,7 +17,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T20:10:11.550Z",
       "duration": 4.1,
-      "linkYoutube": "https://www.youtube.com/watch?v=9pJbPr8W1xc",
+      "linkYoutube": "https://www.youtube.com/embed/9pJbPr8W1xc",
       "style": "Folk",
       "moreInfo": "",
       "id": 2
@@ -28,7 +28,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T20:29:51.485Z",
       "duration": 4.7,
-      "linkYoutube": "https://www.youtube.com/watch?v=6oremFnbgO0&t=65s",
+      "linkYoutube": "https://www.youtube.com/embed/6oremFnbgO0",
       "style": "Indie",
       "moreInfo": "",
       "id": 3
@@ -39,7 +39,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T20:32:44.697Z",
       "duration": 3.4,
-      "linkYoutube": "https://www.youtube.com/watch?v=gAua3u3DXfU",
+      "linkYoutube": "https://www.youtube.com/embed/gAua3u3DXfU",
       "style": "Folk",
       "moreInfo": "",
       "id": 4
@@ -50,7 +50,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T20:53:25.220Z",
       "duration": 2.01,
-      "linkYoutube": "https://www.youtube.com/watch?v=EDK9KOfknTw&ab_channel=TrioMandili",
+      "linkYoutube": "https://www.youtube.com/embed/EDK9KOfknTw",
       "style": "Folk",
       "moreInfo": "",
       "id": 5
@@ -61,7 +61,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:12:34.194Z",
       "duration": 8.24,
-      "linkYoutube": "https://www.youtube.com/watch?v=UXAaDqPl7oY&ab_channel=piccallopaul",
+      "linkYoutube": "https://www.youtube.com/embed/UXAaDqPl7oY",
       "style": "Progressive",
       "moreInfo": "",
       "id": 6
@@ -72,7 +72,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:16:44.217Z",
       "duration": 3.23,
-      "linkYoutube": "https://www.youtube.com/watch?v=Pw8ZESzpL3M&ab_channel=steveh77",
+      "linkYoutube": "https://www.youtube.com/embed/Pw8ZESzpL3M",
       "style": "Progressive",
       "moreInfo": "",
       "id": 7
@@ -94,7 +94,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:20:43.841Z",
       "duration": 4.04,
-      "linkYoutube": "https://www.youtube.com/watch?v=b4Bj7Zb-YD4&ab_channel=CalvinHarrisVEVO",
+      "linkYoutube": "https://www.youtube.com/embed/b4Bj7Zb-YD4",
       "style": "Other",
       "moreInfo": "",
       "id": 9
@@ -105,7 +105,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:23:50.991Z",
       "duration": 3.04,
-      "linkYoutube": "https://www.youtube.com/watch?v=W9P_qUnMaFg&ab_channel=ChillNation",
+      "linkYoutube": "https://www.youtube.com/embed/W9P_qUnMaFg",
       "style": "Trance",
       "moreInfo": "",
       "id": 10
@@ -116,7 +116,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:26:19.982Z",
       "duration": 4.48,
-      "linkYoutube": "https://www.youtube.com/watch?v=DFalXoDhurA&ab_channel=%C3%8Dmar",
+      "linkYoutube": "https://www.youtube.com/embed/DFalXoDhurA",
       "style": "Other",
       "moreInfo": "",
       "id": 11
@@ -127,7 +127,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:29:46.519Z",
       "duration": 5.56,
-      "linkYoutube": "https://www.youtube.com/watch?v=OVmCGiNsX00&ab_channel=faridsheek",
+      "linkYoutube": "https://www.youtube.com/embed/OVmCGiNsX00",
       "style": "Other",
       "moreInfo": "",
       "id": 12
@@ -138,7 +138,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:34:55.809Z",
       "duration": 6.48,
-      "linkYoutube": "https://www.youtube.com/watch?v=RaLVi4zFYvk&ab_channel=RoySmila",
+      "linkYoutube": "https://www.youtube.com/embed/RaLVi4zFYvk",
       "style": "Other",
       "moreInfo": "",
       "id": 13
@@ -149,7 +149,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:38:07.354Z",
       "duration": 3.14,
-      "linkYoutube": "https://www.youtube.com/watch?v=cayinI74kvA&ab_channel=R%C3%A9miGeffroy",
+      "linkYoutube": "https://www.youtube.com/embed/cayinI74kvA",
       "style": "Folk",
       "moreInfo": "",
       "id": 14
@@ -160,7 +160,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:43:44.724Z",
       "duration": 4.27,
-      "linkYoutube": "https://www.youtube.com/watch?v=3yTzPC_X3J0&ab_channel=DJATOMICKPATRICK",
+      "linkYoutube": "https://www.youtube.com/embed/3yTzPC_X3J0",
       "style": "Trance",
       "moreInfo": "",
       "id": 15
@@ -171,7 +171,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:47:33.505Z",
       "duration": 5.24,
-      "linkYoutube": "https://www.youtube.com/watch?v=7OsKYiKpphs&ab_channel=RastakMusic",
+      "linkYoutube": "https://www.youtube.com/embed/7OsKYiKpphs",
       "style": "Folk",
       "moreInfo": "",
       "id": 16
@@ -182,7 +182,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:50:06.409Z",
       "duration": 5.3,
-      "linkYoutube": "https://www.youtube.com/watch?v=jprRLqyTQQM&ab_channel=Adhy%C4%81tman",
+      "linkYoutube": "https://www.youtube.com/embed/jprRLqyTQQM",
       "style": "Other",
       "moreInfo": "",
       "id": 17
@@ -193,7 +193,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:51:41.832Z",
       "duration": 4.52,
-      "linkYoutube": "https://www.youtube.com/watch?v=9QhchQD_w0M&ab_channel=SantanaVEVO",
+      "linkYoutube": "https://www.youtube.com/embed/9QhchQD_w0M",
       "style": "Other",
       "moreInfo": "",
       "id": 18
@@ -204,7 +204,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:56:24.926Z",
       "duration": 53.56,
-      "linkYoutube": "https://www.youtube.com/watch?v=vcLRi3SDMJU&ab_channel=WuMing",
+      "linkYoutube": "https://www.youtube.com/embed/vcLRi3SDMJU",
       "style": "Other",
       "moreInfo": "",
       "id": 19
@@ -215,7 +215,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:58:17.068Z",
       "duration": 3.15,
-      "linkYoutube": "https://www.youtube.com/watch?v=cMVhlhJ9gX8&list=PLS_Sruh9CffSEPaVuDkK6mUkWXMONaQOl",
+      "linkYoutube": "https://www.youtube.com/embed/cMVhlhJ9gX8",
       "style": "Other",
       "moreInfo": "",
       "id": 20
@@ -226,7 +226,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T22:02:38.393Z",
       "duration": 5.07,
-      "linkYoutube": "https://www.youtube.com/watch?v=IxM1tjTvFAc&ab_channel=saberbutterfly",
+      "linkYoutube": "https://www.youtube.com/embed/IxM1tjTvFAc",
       "style": "Other",
       "moreInfo": "",
       "id": 21
@@ -237,7 +237,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T22:06:20.373Z",
       "duration": 3.09,
-      "linkYoutube": "https://www.youtube.com/watch?v=41_d4D7T6uI&ab_channel=%D0%92%D0%95%D0%9A",
+      "linkYoutube": "https://www.youtube.com/embed/41_d4D7T6uI",
       "style": "Folk",
       "moreInfo": "",
       "id": 22
@@ -248,7 +248,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T22:09:04.680Z",
       "duration": 5.07,
-      "linkYoutube": "https://www.youtube.com/watch?v=RrvihfjOiU0&list=RDMM&ab_channel=morchangstudios",
+      "linkYoutube": "https://www.youtube.com/embed/RrvihfjOiU0",
       "style": "Folk",
       "moreInfo": "",
       "id": 23
@@ -259,7 +259,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T22:11:24.753Z",
       "duration": 3.17,
-      "linkYoutube": "https://www.youtube.com/watch?v=d7kD1BOptIM&list=RDMM&index=6&ab_channel=MohamedLamine-Topic",
+      "linkYoutube": "https://www.youtube.com/embed/d7kD1BOptIM",
       "style": "Trance",
       "moreInfo": "",
       "id": 24
@@ -270,7 +270,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T22:13:17.371Z",
       "duration": 5.07,
-      "linkYoutube": "https://www.youtube.com/watch?v=907JdLh_WPM&ab_channel=%C3%8Dmar",
+      "linkYoutube": "https://www.youtube.com/embed/907JdLh_WPM",
       "style": "Other",
       "moreInfo": "",
       "id": 25
@@ -281,7 +281,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T22:36:43.059Z",
       "duration": 8.36,
-      "linkYoutube": "https://www.youtube.com/watch?v=QOrrNM4md8c&ab_channel=Wandydeoli",
+      "linkYoutube": "https://www.youtube.com/embed/QOrrNM4md8c",
       "style": "Progressive",
       "moreInfo": "",
       "id": 26
@@ -292,7 +292,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T22:50:38.967Z",
       "duration": 9.24,
-      "linkYoutube": "https://www.youtube.com/watch?v=QeAYXZMxYbU&ab_channel=RaghuramManikandan",
+      "linkYoutube": "https://www.youtube.com/embed/QeAYXZMxYbU",
       "style": "Other",
       "moreInfo": "",
       "id": 27
@@ -303,7 +303,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T22:53:43.765Z",
       "duration": 3.54,
-      "linkYoutube": "https://www.youtube.com/watch?v=qLlpoiNvE2k&ab_channel=NikKershaw-Topic",
+      "linkYoutube": "https://www.youtube.com/embed/qLlpoiNvE2k",
       "style": "Other",
       "moreInfo": "",
       "id": 28
@@ -314,10 +314,98 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-29T16:17:45.460Z",
       "duration": 0,
-      "linkYoutube": "https://youtube.com/",
+      "linkYoutube": "https://www.youtube.com/embed/uO7DiYjgfRs",
       "style": "Indie",
       "moreInfo": "",
       "id": 29
+    },
+    {
+      "title": "Caitlín Nic Gabhann",
+      "author": " CustysMusic",
+      "imageURL": "",
+      "releaseDate": "2021-07-30T15:26:49.713Z",
+      "duration": 6.44,
+      "linkYoutube": "https://www.youtube.com/embed/cFJURq1I4e8",
+      "style": "Folk",
+      "moreInfo": "",
+      "id": 30
+    },
+    {
+      "title": "Blue (Da Ba Dee)",
+      "author": "Eiffel 65 ",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-30T15:33:44.427Z",
+      "duration": 4.45,
+      "linkYoutube": "https://www.youtube.com/embed/zA52uNzx7Y4",
+      "style": "Trance",
+      "moreInfo": "",
+      "id": 31
+    },
+    {
+      "title": "Bla Bla Bla",
+      "author": "Gigi D'Agostino",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-30T17:37:37.747Z",
+      "duration": 3.13,
+      "linkYoutube": "https://www.youtube.com/embed/Hrph2EW9VjY",
+      "style": "Trance",
+      "moreInfo": "",
+      "id": 32
+    },
+    {
+      "title": "The Time",
+      "author": "Black Eyed Peas",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-30T18:55:44.157Z",
+      "duration": 0,
+      "linkYoutube": "https://www.youtube.com/embed/Ed2AWp18PvE",
+      "style": "Other",
+      "moreInfo": "",
+      "id": 33
+    },
+    {
+      "title": "Alone",
+      "author": "Marshmello",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-30T19:13:54.405Z",
+      "duration": 3.22,
+      "linkYoutube": "https://www.youtube.com/embed/UNB8F0ObA4g",
+      "style": "Trance",
+      "moreInfo": "",
+      "id": 34
+    },
+    {
+      "title": "Kajra Re",
+      "author": "Shankar-Ehsaan-Loy",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-30T20:54:50.554Z",
+      "duration": 7.54,
+      "linkYoutube": "https://www.youtube.com/embed/4dsFQFCvVGU",
+      "style": "Other",
+      "moreInfo": "Um paragrafo aqui \nUm outro paragrafo aqui tambem lalala felis turpis curae pellentesque integer, cubilia dui eget taciti tortor eu fusce phasellus, leo pellentesque adipiscing netus aliquam semper quis. fermentum nec leo porta id proin \nOutro Paragrafo b",
+      "id": 35
+    },
+    {
+      "title": "Beehive",
+      "author": "The Lowground",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-30T23:31:48.087Z",
+      "duration": 4.23,
+      "linkYoutube": "https://www.youtube.com/embed/IJ1lvB4H1Cg",
+      "style": "Folk",
+      "moreInfo": "Isso é uma outra atualização",
+      "id": 36
+    },
+    {
+      "title": "Mr Tambourine Man asaksjk",
+      "author": "The Helio Sequence",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-07-30T23:44:07.074Z",
+      "duration": 5.26,
+      "linkYoutube": "https://www.youtube.com/embed/PYF8Y47qZQY",
+      "style": "Indie",
+      "moreInfo": "",
+      "id": 37
     }
   ]
 }

@@ -1,5 +1,6 @@
-import { FormBuilder, FormGroup } from "@angular/forms";
+import { Router } from "@angular/router";
 import { Component, OnInit } from "@angular/core";
+import { FormBuilder, FormGroup } from "@angular/forms";
 
 import { debounceTime } from 'rxjs/operators';
 
@@ -20,19 +21,26 @@ import { SearchFields } from "src/app/shared/models/search-fields";
 export class ListMusicsComponent implements OnInit {
 
     readonly noPicture = "assets/img/no-image.svg";
+    musics: Music[] = [];
+    musicFilter: FormGroup;
 
     configParams: ConfigParams = {
         page: 0,
-        limit: 9
+        limit: 20
 
     } as ConfigParams;
 
-    musics: Music[] = [];
-    musicFilter: FormGroup;
-    styles: Array<string>;
+    styles: Array<string> = [
+        "Folk", 
+        "Indie", 
+        "Trance", 
+        "Progressive", 
+        "Other"
+    ];
 
     constructor(private musicService: MusicService,
-                private formBuilder: FormBuilder
+                private formBuilder: FormBuilder,
+                private router: Router
     ) {}
 
     ngOnInit() {
@@ -42,10 +50,10 @@ export class ListMusicsComponent implements OnInit {
         });
 
         this.musicFilter.get('value')?.valueChanges
-            .pipe(debounceTime(400))
+            .pipe(debounceTime(500))
             .subscribe((change: string) => {
-            this.configParams.search = change;
-            this.resetList();
+                this.configParams.search = change;
+                this.resetList();
         })
 
         this.musicFilter.get('style')?.valueChanges.subscribe((change: string) => {
@@ -58,13 +66,15 @@ export class ListMusicsComponent implements OnInit {
             this.resetList();
         })
 
-        this.styles = ["Folk", "Indie", "Trance", "Progressive", "Other"];
-
         this.listMusics();
     }
 
     onScroll(): void {
         this.listMusics();
+    }
+
+    openMoreInfo(id: number): void {
+        this.router.navigateByUrl(`/musics/${id}`);
     }
 
     private listMusics(): void {

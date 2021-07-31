@@ -60,11 +60,6 @@
 }
 
 @media only screen and (max-width: 574px) {
-    .alert-btn-box {
-        flex-direction: column-reverse;
-        gap: 0.7rem;
-    }
-
     .alert-btn {
         margin-bottom: 0.5rem;
         width: 100%;

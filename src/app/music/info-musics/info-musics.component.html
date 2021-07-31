@@ -1,0 +1,77 @@
+<div class="main-content" >
+    <div class="app-title">{{music.title}}</div>
+    
+    <!--START Music Box Template-->
+    <div class="info-content" 
+         *ngIf="music.id > 0; else noMusic">
+
+        <div class="box-title">
+            {{music.author}}
+            <span>
+                {{music.style}}
+            </span>
+        </div>
+        <iframe class="video-frame" 
+                width="560" height="315"
+                [src]='getYoutubeURL()' 
+                frameborder="0" 
+                allow="accelerometer; picture-in-picture" 
+                allowfullscreen>
+    </iframe>
+
+    <mat-list role="list">
+        <div class="list-row">
+            <span class="info-data-label">Post at</span>
+            <div class="info-data-content">
+                {{music.releaseDate | date: 'dd/MM/yyyy'}}
+            </div>
+        </div>
+
+        <mat-divider></mat-divider>
+
+        <div class="list-row">
+            <span class="info-data-label">Duration</span>
+            <div class="info-data-content">
+                {{music.duration}}min
+            </div>
+        </div>
+
+        <mat-divider></mat-divider>
+
+        <div class="list-row">
+            <span class="info-data-label">More Info</span>
+            <div class="info-data-content">
+                {{music.moreInfo}}
+            </div>
+        </div>
+      </mat-list>
+
+      <mat-card-actions class="form-movie-btn">
+        <button class="form-btn-action" 
+                mat-raised-button
+                (click)="edit()">
+            Edit
+        </button>
+        <button class="form-btn-action" 
+                mat-raised-button
+                (click)="delete()">
+            Delete
+        </button>
+      </mat-card-actions>
+
+    </div>
+    <!--END Music Box Template-->
+</div>
+
+<!--START Not Found Music Template-->
+<ng-template #noMusic>
+    <div class="no-content" >
+  
+      <img class="empty-icon" 
+           alt="No music found"
+           [src]="noPicture"
+      >
+      <p>{{music.moreInfo}}</p>
+    </div>
+</ng-template>
+  <!--END Not Found Music Template-->

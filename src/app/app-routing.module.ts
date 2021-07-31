@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { MusicsModule } from './music/musics.module';
 import { ListMusicsComponent } from './music/list-musics/list-musics.component';
 import { RegisterMusicsComponent } from './music/register-musics/register-musics.component';
+import { InfoMusicsComponent } from './music/info-musics/info-musics.component';
 
 
 const routes: Routes = [
@@ -18,12 +19,26 @@ const routes: Routes = [
       {
         path: "",
         component: ListMusicsComponent
-      },
+      }, 
       {
         path: "register",
-        component: RegisterMusicsComponent,
+        children: [
+          {
+            path: "",
+            component: RegisterMusicsComponent
+          },
+          {
+            path: ":id",
+            component: RegisterMusicsComponent
+          }
+        ]
+      },
+      {
+        path: ":id",
+        component:InfoMusicsComponent,
         pathMatch: "full"
       }
+    
     ]
   },
   {

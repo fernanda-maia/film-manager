@@ -1,13 +1,19 @@
+.app-title {
+    margin-top: 5rem;
+}
+
 .home-content {
     transform: translateY(-12vh);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 1rem;
     background-color: transparent;
+    box-shadow: none;
+    border-radius: 1rem;
 }
 
+/*Register Form Style*/
 .form-movie-content {
     width: 45vw;
     max-width: 100%;
@@ -19,8 +25,7 @@
     border: double 12px var(--pink-border-color);
     box-shadow: var(--box-shadow-primary);
     transition: 0.5;
-    font-family: var(--body-font);
-    font-size: 1.2rem;
+    font: normal 1.2rem var(--body-font);
 }
 
 form {
@@ -29,61 +34,8 @@ form {
     gap: 1rem;
 }
 
-.form-movie-btn {
-    align-self: center;
-    display: flex;
-    gap: 1rem;
-    width: 100%;
-}
 
-.form-movie-btn button {
-    width: 50%;
-    font-size: 1rem;
-    padding: 0.5rem;
-    text-transform: uppercase;
-}
-
-.form-btn-action {
-    outline: solid 3px var(--menu-theme-color);
-    background-color: transparent;
-    border-radius: 0;
-}
-
-.form-btn-action:first-of-type {
-    outline-color: #7efc0060;
-    color: #7efc0060;
-}
-
-.form-btn-action:last-of-type {
-    outline-color: #ff000060;
-    color: #ff000060;
-}
-
-.form-btn-action:first-of-type:hover {
-    outline-color:#11ca0a;
-    background-color: #11ca0a;
-    color: var(--secondary-font-color);
-}
-
-.form-btn-action:last-of-type:hover {
-    outline-color: #ff0000;
-    background-color: #ff0000;
-    color: var(--secondary-font-color);
-}
-
-@media only screen and (max-width: 760px) {
-    .form-movie-btn {
-        flex-direction: column-reverse;
-        gap: 2rem;
-    }
-    
-    .form-movie-btn button {
-        align-self: center;
-        width: 100%;
-    }
-
-}
-
+/*Tablets*/
 @media (min-width:540px) and (max-width:1024px) {
     .form-movie-content {
         width: 70vw;
