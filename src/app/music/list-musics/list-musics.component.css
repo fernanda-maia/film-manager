@@ -1,0 +1,139 @@
+/*Search Navbar Style*/
+.wrapper-search-music {
+    background-color: #00000000;
+    align-self: flex-end;
+    margin: 0;
+    width: 25vw;
+    padding: 0.5rem 1rem;
+    box-shadow: none;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.form-search-music {
+    transform: translateY(10px);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.search-music {
+    width: 88%;
+}
+
+.select-style {
+    width: 12%;
+}
+
+
+/*Music List Style*/
+.home-content {
+    width: 80%;
+    margin-bottom: 5rem;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    display: grid;
+    background-color: #af00834d;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 25rem));
+    gap: 3rem;
+    justify-content: center;
+}
+
+.home-card {
+    background-color: var(--primary-bg);
+    padding: 1.7rem;
+    transform: translateY(-12vh);
+    border: double 12px #7efc0060;
+    border-radius: 1rem;
+    transition: 0.5;
+    font-family: var(--body-font);
+    overflow: hidden;
+}
+
+.home-card:hover {
+    border-color: var(--lime-border-color);
+    box-shadow: var(--box-shadow-primary);
+}
+
+.card-movie-title, .card-movie-subtitle {
+    max-width: calc(12rem + 5vw);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.card-movie-title {
+    font: normal 1.9rem var(--title-primary-font);
+    padding-bottom: 1rem;
+}
+
+.card-movie-subtitle {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+.card-movie-subtitle::before {
+    content: '@';
+}
+
+.wrapper {
+    width: 100%;
+    margin: 1.4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: contain;
+}
+
+.card-movie-btn {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: transparent;
+    box-shadow: none;
+    color: #7efc0060;
+    outline: solid 4px #7efc0060;
+}
+
+.card-movie-btn:hover {
+    outline-color: var(--lime-border-color);
+    color: var(--lime-border-color); 
+}
+
+
+/*Smartphones*/
+@media only screen and (max-width: 720px) {
+    .home-card {
+        transform: translateY(0);
+    }
+    
+    .home-content {
+        width: 60%;
+        padding: 5rem 1rem;
+        transform: translateY(-15vh);
+    }
+
+    .app-title {
+        margin-top: 2rem;
+    }
+    
+
+}
+
+/*Smartphones and Tablets*/
+@media only screen and (max-width: 1024px) {
+    .wrapper-search-music {
+        align-self: center;
+        width: 100%;
+        position: relative;
+    }
+    
+}

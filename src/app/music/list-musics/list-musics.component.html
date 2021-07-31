@@ -1,0 +1,87 @@
+<div class="main-content" >
+
+  <!--START Search Bar-->
+  <mat-card  class="wrapper-search-music">
+    <form class="form-search-music" 
+          autocomplete="off"
+          novalidate
+          [formGroup]="musicFilter">
+
+      <div class="search-music">
+        <app-input-text fieldName="Search" 
+                        [formGroup]="musicFilter" 
+                        controlName="value">
+        </app-input-text>
+      </div>
+
+      <div class="select-style">
+        <app-input-select fieldName="" 
+                          controlName="style" 
+                          [formGroup]="musicFilter" 
+                          [options]="styles">
+        </app-input-select>
+      </div>
+
+    </form>
+  </mat-card>
+  <!--END Search Bar-->
+
+  <div class="app-title">My List</div>
+
+  <!--START List Template-->
+  <div class="home-content"
+      *ngIf="musics.length; else noMusic"
+      infiniteScroll
+      (scrolled)="onScroll()"
+      [infiniteScrollContainer]="'.mat-drawer-content'" 
+      [fromRoot]="true"
+  >
+
+    <mat-card class="home-card" 
+              *ngFor="let music of musics">
+
+      <mat-card-header>
+        <mat-card-title class="card-movie-title">{{music.title}}</mat-card-title>
+        <mat-card-subtitle class="card-movie-subtitle">{{music.author}}</mat-card-subtitle>
+      </mat-card-header>
+
+      <div class="wrapper">
+        <img mat-card-image 
+             class="card-img" 
+             [src]="music.imageURL || noPicture" 
+             [alt]="music.title + ' cover'">
+      </div>
+  
+      <mat-card-actions>
+        <button mat-raised-button
+                color="accent" 
+                class="card-movie-btn"
+                (click)="openMoreInfo(music.id)">
+            MORE INFO
+        </button>
+      </mat-card-actions>
+
+    </mat-card>
+  </div>
+  <!--END List Template-->
+  
+  <ngx-spinner bdColor = "rgba(0,0,0,0.4)" 
+               size = "medium" 
+               color = "#7cfc00" 
+               type = "line-scale-party">
+  </ngx-spinner>
+
+</div>
+
+<!--START Empty List Template-->
+<ng-template #noMusic>
+  <div class="no-content" >
+
+    <img class="empty-icon" 
+         alt="Empty List"
+         [src]="noPicture"
+    >
+    <p>Your List is Empty</p>
+  </div>
+</ng-template>
+<!--END Empty List Template-->

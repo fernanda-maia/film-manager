@@ -1,0 +1,140 @@
+.main-content {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-title {
+    height: calc(10rem + 10vw);
+    width: 100%;
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 5rem;
+    align-items: flex-start;
+    justify-content: center;
+    font: 100 calc(2rem + 2vw) var(--body-font);
+    background-color: transparent;
+    text-shadow:
+               0px 0px 10px #dab0cf,
+               0px 0px 10px #520831,
+               0px 0px 10px #3d0238;
+}
+
+/*Form Button Style*/
+.form-movie-btn {
+    align-self: center;
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.form-movie-btn button {
+    width: 50%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+
+.form-btn-action {
+    outline: solid 3px var(--menu-theme-color);
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.form-btn-action:first-of-type {
+    outline-color: #7efc0060;
+    color: #7efc0060;
+}
+
+.form-btn-action:last-of-type {
+    outline-color: #ff000060;
+    color: #ff000060;
+}
+
+.form-btn-action:first-of-type:hover {
+    outline-color:#11ca0a;
+    background-color: #11ca0a;
+    color: var(--secondary-font-color);
+}
+
+.form-btn-action:last-of-type:hover {
+    outline-color: #ff0000;
+    background-color: #ff0000;
+    color: var(--secondary-font-color);
+}
+
+
+/*Music Empty List Style*/
+.no-content {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #00000071;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: double 12px var(--pink-border-color);
+    width: 60%;
+    border-radius: 1rem;
+
+}
+
+.no-content p {
+    margin: 0;
+    transform: translateY(-5rem);
+    color: #ffffffd3;
+    word-spacing: 0.9rem;
+    font: normal 5rem 'Staatliches', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: -5px 2px 2px #fa0075a2,
+                  5px 0 0 #ff74a2bd;
+}
+
+.empty-icon {
+    transform: translateY(-10rem);
+    width: 30rem;
+    -webkit-filter: drop-shadow(-1px 0 3px #0077ff);
+    filter: drop-shadow(-1px 0 3px #0077ff);
+}
+
+/*Smartphones*/
+@media only screen and (max-width: 760px) {
+    .no-content {
+        transform: translateY(-5rem);
+    }
+    .no-content p {
+        font-size: 3rem;
+        transform: translateY(-2rem);
+    }
+    
+    .empty-icon {
+        transform: translateY(-4rem);
+        width: 20rem;
+    }
+
+    .form-movie-btn {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    
+    .form-movie-btn button {
+        align-self: center;
+        width: 100%;
+    }
+}
+
+/*Smartphones and Tablets*/
+@media only screen and (max-width: 1024px) {
+
+    .no-content {
+        padding: 0 1rem;
+        width: 80%;
+    }
+}
+
+
+
