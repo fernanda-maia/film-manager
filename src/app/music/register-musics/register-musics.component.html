@@ -4,7 +4,12 @@
 
       <!--START Muisc Register Form-->
       <mat-card-content class="form-movie-content">
-        <form [formGroup]="register" (ngSubmit)="submit()" (ngReset)="cancel()" novalidate autocomplete="off">
+        <form novalidate 
+              autocomplete="off"
+              [formGroup]="register" 
+              (ngSubmit)="submit()" 
+              (ngReset)="cancel()" 
+        >
 
             <app-input-text fieldName="Title" [formGroup]="register" controlName="title"></app-input-text>
             <app-input-text fieldName="Author" [formGroup]="register" controlName="author"></app-input-text>
@@ -16,9 +21,18 @@
             <app-input-textarea fieldName="More Info" [formGroup]="register" controlName="moreInfo"></app-input-textarea>
             
             <mat-card-actions class="form-movie-btn">
-              <button type="submit" class="form-btn-action" mat-raised-button>Save</button>
-              <button type="reset" (click)="cancel()" class="form-btn-action" mat-raised-button>Cancel</button>
+              <button mat-raised-button
+                      type="submit" 
+                      class="form-btn-action">Save
+              </button>
+
+              <button mat-raised-button 
+                      class="form-btn-action" 
+                      type="reset" 
+                      (click)="cancel()">Cancel
+              </button>
             </mat-card-actions>
+            
         </form>
         </mat-card-content>
         <!--END Music Reguster Form-->

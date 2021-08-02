@@ -86,7 +86,7 @@ export class RegisterMusicsComponent implements OnInit {
         let endPosition = id? id.indexOf("&") : -1;
         
         if(endPosition != -1) {
-            music.linkYoutube = "https://www.youtube.com/embed/" + id.substring(0, endPosition);
+            music.linkYoutube = "https://www.youtube-nocookie.com/embed/" + id.substring(0, endPosition);
         }
 
         return music;

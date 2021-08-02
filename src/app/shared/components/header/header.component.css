@@ -45,13 +45,16 @@
 .app-content {
     overflow-x: hidden;  
     min-height: calc(100vh - 110px);
-    background: fixed center top no-repeat;
+    background: no-repeat center top fixed;
     background-size: cover;
     -webkit-background-size: cover;
+    
 }
 
-@supports ( -webkit-touch-callout : none) {
+@supports (-webkit-touch-callout : none) {
     .app-content {
-       /* background-size:contain; */
+        background-size: contain;
+        background-attachment: scroll;
+        background-color: rgb(12, 12, 12);
     }
 }

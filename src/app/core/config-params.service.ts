@@ -1,13 +1,17 @@
-import { HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { HttpParams } from '@angular/common/http';
+
 import { ConfigParams } from '../shared/models/config-params';
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class ConfigParamsService {
 
-  constructor() { }
+  constructor() { 
+    
+  }
 
   setupParams(config: ConfigParams): HttpParams {
     let httpParams = new HttpParams();

@@ -199,17 +199,6 @@
       "id": 18
     },
     {
-      "title": "Queremos Navegar",
-      "author": "Coral Nossa Senhora",
-      "imageURL": "assets/img/no-image.svg",
-      "releaseDate": "2021-07-28T21:56:24.926Z",
-      "duration": 53.56,
-      "linkYoutube": "https://www.youtube.com/embed/vcLRi3SDMJU",
-      "style": "Other",
-      "moreInfo": "",
-      "id": 19
-    },
-    {
       "title": "Samai Bayati Qadim",
       "author": "Azrin Abdullah",
       "imageURL": "assets/img/no-image.svg",
@@ -371,7 +360,7 @@
       "duration": 3.22,
       "linkYoutube": "https://www.youtube.com/embed/UNB8F0ObA4g",
       "style": "Trance",
-      "moreInfo": "",
+      "moreInfo": "Estou testando",
       "id": 34
     },
     {
@@ -417,6 +406,61 @@
       "style": "Progressive",
       "moreInfo": null,
       "id": 39
+    },
+    {
+      "title": "Jaaneh Jaanaan",
+      "author": "Sami Yusuf",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-08-02T15:12:08.711Z",
+      "duration": 2.09,
+      "linkYoutube": "https://www.youtube.com/embed/nGsn6qOoz2w",
+      "style": "Folk",
+      "moreInfo": "",
+      "id": 40
+    },
+    {
+      "title": "Wise Man In Your Heart",
+      "author": "Gong",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-08-02T15:20:11.321Z",
+      "duration": 6.3,
+      "linkYoutube": "https://www.youtube-nocookie.com/embed/aW6WKBu1H-w",
+      "style": "Progressive",
+      "moreInfo": "",
+      "id": 41
+    },
+    {
+      "title": "Forever Young",
+      "author": "Joan Baez",
+      "imageURL": "ajdskdjksdjks",
+      "releaseDate": "2021-08-02T15:33:59.366Z",
+      "duration": 3.45,
+      "linkYoutube": "https://www.youtube-nocookie.com/embed/-4UoJ47SzjA",
+      "style": "Indie",
+      "moreInfo": "Broken image test",
+      "id": 42
+    },
+    {
+      "title": "Locomotive Breath",
+      "author": "Jethro Tull",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-08-02T16:33:21.873Z",
+      "duration": 5.42,
+      "linkYoutube": "https://www.youtube-nocookie.com/embed/eSUdlUmtg3Q",
+      "style": "Progressive",
+      "moreInfo": "",
+      "id": 43
+    },
+    {
+      "title": "Blowing In The Wind",
+      "author": "Bob Dylan",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-08-02T23:31:45.340Z",
+      "duration": 2.35,
+      "linkYoutube": "https://www.youtube-nocookie.com/embed/vWwgrjjIMXA",
+      "style": "Indie",
+      "moreInfo": "",
+      "id": 44
     }
   ]
 }

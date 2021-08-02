@@ -8,7 +8,7 @@ import { ConfigParams } from '../shared/models/config-params';
 import { ConfigParamsService } from './config-params.service';
 
 
-const baseURL = "http://localhost:3000/musics/"
+const baseURL = "http://192.168.18.4:3000/musics/"
 
 @Injectable({
   providedIn: 'root'
@@ -16,7 +16,9 @@ const baseURL = "http://localhost:3000/musics/"
 export class MusicService {
 
   constructor(private httpClient: HttpClient,
-              private configParamsService: ConfigParamsService) { }
+              private configParamsService: ConfigParamsService) { 
+
+  }
 
   save(music: Music): Observable<Music> {
     return this.httpClient.post<Music>(baseURL, music);

@@ -6,8 +6,6 @@
     width: 25vw;
     padding: 0.5rem 1rem;
     box-shadow: none;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
     z-index: 999;
 }
@@ -37,7 +35,6 @@
     border-radius: 1rem;
     padding: 0 1rem;
     display: grid;
-    background-color: #af00834d;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 25rem));
     gap: 3rem;
     justify-content: center;
@@ -88,7 +85,7 @@
     justify-content: center;
 }
 
-.card-img {
+.card-img, .broken-img {
     width: 15rem;
     height: 15rem;
     object-fit: contain;
@@ -116,7 +113,6 @@
     }
     
     .home-content {
-        width: 60%;
         padding: 5rem 1rem;
         transform: translateY(-15vh);
     }
@@ -125,7 +121,6 @@
         margin-top: 2rem;
     }
     
-
 }
 
 /*Smartphones and Tablets*/
@@ -136,4 +131,7 @@
         position: relative;
     }
     
+    .home-content {
+        width: 100%;
+    }
 }

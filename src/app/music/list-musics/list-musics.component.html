@@ -47,7 +47,12 @@
 
       <div class="wrapper">
         <img mat-card-image 
-             class="card-img" 
+             class="card-img"
+             onerror="this.onerror=null;
+                      this.src='assets/img/broken.png';
+                      this.classList.add('broken-img');
+                      this.alt='Sorry, I lost your Image';
+              " 
              [src]="music.imageURL || noPicture" 
              [alt]="music.title + ' cover'">
       </div>
@@ -70,7 +75,6 @@
                color = "#7cfc00" 
                type = "line-scale-party">
   </ngx-spinner>
-
 </div>
 
 <!--START Empty List Template-->

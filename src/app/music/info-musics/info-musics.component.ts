@@ -1,12 +1,12 @@
-import { ActivatedRoute, Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { ActivatedRoute, Router } from '@angular/router';
+import { _getOptionScrollPosition } from '@angular/material/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 import { Music } from 'src/app/shared/models/music';
-import { MusicService } from 'src/app/core/music.service';
-import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-import { _getOptionScrollPosition } from '@angular/material/core';
 import { Alert } from 'src/app/shared/models/alert';
-import { MatDialog } from '@angular/material/dialog';
+import { MusicService } from 'src/app/core/music.service';
 import { AlertComponent } from 'src/app/shared/components/alert/alert.component';
 
 
@@ -14,20 +14,23 @@ import { AlertComponent } from 'src/app/shared/components/alert/alert.component'
   selector: 'app-info-musics',
   templateUrl: './info-musics.component.html',
   styleUrls: [
-      './info-musics.component.css',
-      '../musics.component.css'
+    './info-musics.component.css',
+    '../musics.component.css'
   ]
 })
 export class InfoMusicsComponent implements OnInit {
   readonly noPicture = "assets/img/no-image.svg";
-  music: Music;
+
   id: number;
+  music: Music;
 
   constructor(public dialog: MatDialog,
-              private activeRoute: ActivatedRoute,
               private router: Router,
-              private musicService: MusicService,
-              private sanitizer: DomSanitizer) { }
+              private activeRoute: ActivatedRoute,
+              private sanitizer: DomSanitizer,
+              private musicService: MusicService) { 
+
+  }
 
   ngOnInit(): void {
     this.id = this.activeRoute.snapshot.params["id"];
@@ -39,7 +42,8 @@ export class InfoMusicsComponent implements OnInit {
     this.router.navigateByUrl(`/musics/register/${this.id}`);
   }
 
-  delete(): void {
+
+  delete(): void { 
     const config = {
       data: {
         title: "Confirm",
@@ -50,6 +54,7 @@ export class InfoMusicsComponent implements OnInit {
           
       } as Alert
     };
+
     const dialogRef = this.dialog.open(AlertComponent, config);
     dialogRef.afterClosed().subscribe((opt: boolean) => {
       if(opt) {
@@ -58,7 +63,7 @@ export class InfoMusicsComponent implements OnInit {
               .subscribe(() => this.router.navigateByUrl("/musics"));
       }
     })
-  }
+  } // END Delete
 
   private viewInfo(): void {
     
@@ -79,7 +84,7 @@ export class InfoMusicsComponent implements OnInit {
 
       } as Music;
     }
-  }
+  } // END ViewInfo
 
   getYoutubeURL(): SafeResourceUrl {
     return this.sanitizer
