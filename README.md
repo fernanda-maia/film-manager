@@ -28,7 +28,7 @@ ng serve
 ```sh
 http://localhost:4200/
 ```
-    ou acesse pelo Live Demo:
+ou acesse pelo Live Demo:
 ```sh
 https://fernanda-maia.github.io/film-manager/
 ```
