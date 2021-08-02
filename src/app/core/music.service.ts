@@ -8,7 +8,7 @@ import { ConfigParams } from '../shared/models/config-params';
 import { ConfigParamsService } from './config-params.service';
 
 
-const baseURL = "http://192.168.18.4:3000/musics/"
+const baseURL = "http://localhost:3000/musics/"
 
 @Injectable({
   providedIn: 'root'
