@@ -83,7 +83,7 @@
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:19:01.771Z",
       "duration": 5.39,
-      "linkYoutube": "https://www.youtube.com/watch?v=gd3Cw7eOFR4&ab_channel=MiGho",
+      "linkYoutube": "https://www.youtube-nocookie.com/embed/gd3Cw7eOFR4",
       "style": "Trance",
       "moreInfo": "",
       "id": 8
@@ -461,6 +461,39 @@
       "style": "Indie",
       "moreInfo": "",
       "id": 44
+    },
+    {
+      "title": "Levels",
+      "author": "Avicii",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-08-03T00:27:12.768Z",
+      "duration": 10.29,
+      "linkYoutube": "https://www.youtube-nocookie.com/embed/RqiRWIYMlnA",
+      "style": "Trance",
+      "moreInfo": "",
+      "id": 45
+    },
+    {
+      "title": "The Catalyst",
+      "author": "Linkin Park",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-08-03T00:28:28.131Z",
+      "duration": 4.43,
+      "linkYoutube": "https://www.youtube-nocookie.com/embed/51iquRYKPbs",
+      "style": "Other",
+      "moreInfo": "",
+      "id": 46
+    },
+    {
+      "title": "King Arthur",
+      "author": "Rick Wakeman",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-08-03T00:31:18.346Z",
+      "duration": 6.04,
+      "linkYoutube": "https://www.youtube-nocookie.com/embed/RP64j589WPk",
+      "style": "Progressive",
+      "moreInfo": "",
+      "id": 47
     }
   ]
 }
