@@ -159,8 +159,8 @@
       "author": "Provenzano",
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-28T21:43:44.724Z",
-      "duration": 4.27,
-      "linkYoutube": "https://www.youtube.com/embed/3yTzPC_X3J0",
+      "duration": 4.22,
+      "linkYoutube": "https://www.youtube-nocookie.com/embed/3yTzPC_X3J0",
       "style": "Trance",
       "moreInfo": "",
       "id": 15
@@ -353,12 +353,12 @@
       "id": 33
     },
     {
-      "title": "Alone",
+      "title": "Together",
       "author": "Marshmello",
       "imageURL": "assets/img/no-image.svg",
       "releaseDate": "2021-07-30T19:13:54.405Z",
       "duration": 3.22,
-      "linkYoutube": "https://www.youtube.com/embed/UNB8F0ObA4g",
+      "linkYoutube": "https://www.youtube-nocookie.com/embed/JePnQ1gSagc",
       "style": "Trance",
       "moreInfo": "Estou testando",
       "id": 34
@@ -494,6 +494,39 @@
       "style": "Progressive",
       "moreInfo": "",
       "id": 47
+    },
+    {
+      "title": "Nova",
+      "author": "Ahrix",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-08-03T00:35:57.930Z",
+      "duration": 4.41,
+      "linkYoutube": "https://www.youtube-nocookie.com/embed/X5mcY8ecs8I",
+      "style": "Trance",
+      "moreInfo": "",
+      "id": 48
+    },
+    {
+      "title": "Fee Ra Huri",
+      "author": "OMNIA",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-08-03T00:37:17.667Z",
+      "duration": 4.01,
+      "linkYoutube": "https://www.youtube-nocookie.com/embed/J56VVtlZCGE",
+      "style": "Folk",
+      "moreInfo": "",
+      "id": 49
+    },
+    {
+      "title": "The Sofa",
+      "author": "Mohsen Amini",
+      "imageURL": "assets/img/no-image.svg",
+      "releaseDate": "2021-08-04T17:17:11.689Z",
+      "duration": 4.24,
+      "linkYoutube": "https://www.youtube-nocookie.com/embed/sjcKiLRCtOw",
+      "style": "Folk",
+      "moreInfo": "",
+      "id": 50
     }
   ]
 }

@@ -82,7 +82,9 @@ export class RegisterMusicsComponent implements OnInit {
     }
 
     private changeURL(music: Music): Music {
-        let id = music.linkYoutube.split("v=")[1];
+        let id = music.linkYoutube.split("v=")[1] || 
+                 music.linkYoutube.split("embed/")[1];
+
         let endPosition = id? id.indexOf("&") : -1;
         
         if(endPosition != -1) {

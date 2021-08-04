@@ -1,5 +1,5 @@
-import { Component, OnInit, ViewChild } from "@angular/core";
 import { MatSidenav } from "@angular/material/sidenav";
+import { Component, OnInit, ViewChild } from "@angular/core";
 
 @Component({
     selector: "app-film-header",
@@ -13,7 +13,7 @@ export class HeaderComponet implements OnInit {
     sidenav: MatSidenav;
 
     ngOnInit() {
-
+       
     }
 
     openSideNav() {
